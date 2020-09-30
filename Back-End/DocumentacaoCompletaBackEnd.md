@@ -113,9 +113,9 @@ PUT CIDADE / ESTADO / ESPECIALIDADE -> DOCTOR
 
  ### Model
 
-| Atributo      | Tipo | Qtd. Caracteres |
-|---------------|------|-----------------|
-| id            |  long 
+| Atributo      | Tipo   | 
+|---------------|--------|
+| id            |  long  |
 | especialidade | String | 
 
 
