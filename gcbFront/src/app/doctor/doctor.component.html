@@ -1,0 +1,91 @@
+<div class="container justify-content-center">
+
+    <div class="row mt-5 mb-5">
+        <div class="col-md-12">
+            <h4 class="text-center text-monospace">Lista de medicos</h4>
+
+
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Dr.(a)</th>
+                        <th scope="col" class="d-flex justify-content-end">Modificações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td class="d-flex justify-content-end">
+                            <a class="btn btn-outline-info mr-3">Editar</a>
+                            <a class="btn btn-outline-danger">Apagar</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <div class="row mt-5 mb-5">
+                <div class="col-md-12">
+
+
+                    <div class="">
+                        <h3 class="text-center mb-4 text-monospace">Cadastrar Médico</h3>
+
+                        <div class="form-group">
+                            <label class="text-monospace" for="texto">Nome do médico:</label>
+                            <input class="form-control" id="texto" rows="3" placeholder="Digite o nome completo">
+                            <label class="text-monospace" for="texto">CRM:</label>
+                            <input class="form-control" id="texto" rows="3" placeholder="Digite o CRM">
+                            <label class="text-monospace" for="texto">Telefone:</label>
+                            <input class="form-control" id="texto" rows="3" placeholder="Digite o telefone">
+                            <label class="text-monospace" for="tema">Escolha sua especialidade <a
+                                routerLink='/especialidade'>cadastre uma nova:</a></label>
+                        <select name="tema" id='tema' class="form-control">
+                            <option>
+
+                            </option>
+                        </select>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group m-0">
+                        <label class="text-monospace" for="tema">Escolha uma cidade ou <a
+                                routerLink='/cidade'>cadastre uma nova:</a></label>
+                        <select name="tema" id='tema' class="form-control">
+                            <option>
+
+                            </option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6"><label class="text-monospace" for="tema">Escolha um Estado ou <a
+                    routerLink='/estado'>cadastre um novo:</a></label>
+                    <select name="tema" id='tema' class="form-control">
+                        <option>
+
+                        </option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <button class="btn btn-outline-success w-25">Cadastrar</button>
+                </div>
+            </div>
+
+            <hr>
+
+
+        </div>
+    </div>
+</div>
